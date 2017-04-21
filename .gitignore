@@ -6,3 +6,4 @@
 .metadata
 # compiled sources
 target
+/out
