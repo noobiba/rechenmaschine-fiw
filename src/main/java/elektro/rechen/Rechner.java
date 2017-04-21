@@ -1,5 +1,5 @@
 package elektro.rechen;
-//Testing gitignore
+
 public class Rechner {
 
     // FIXME extract 1000 / -1000 as upper and lower boundary to class variable
