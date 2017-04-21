@@ -19,6 +19,9 @@ public class RechnerTest {
         assertEquals(rechner.plus(2, 3), 5);
     }
 
+    @Test
+    public void smokeTestMinus() { assertEquals(rechner.minus(7, 4), 3);}
+
     @Test(expected = IllegalArgumentException.class)
     public void numOutOfRange() {
         rechner.plus(1200, -1300);
@@ -28,6 +31,4 @@ public class RechnerTest {
     public void divideByZero() {
         rechner.geteilt(10, 0);
     }
-
-
 }
