@@ -19,4 +19,15 @@ public class RechnerTest {
         assertEquals(rechner.plus(2, 3), 5);
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void numOutOfRange() {
+        rechner.plus(1200, -1300);
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void divideByZero() {
+        rechner.geteilt(10, 0);
+    }
+
+
 }
