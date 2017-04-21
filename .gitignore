@@ -7,4 +7,5 @@
 # compiled sources
 target
 /out
+.DS_store
 
